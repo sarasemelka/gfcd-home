@@ -753,7 +753,7 @@ button {
   border-color: #f39c12;
 }
 .home-info-blocks [class*="col-"]:nth-of-type(2) .icon {
-  background: #f39c12;
+  background: #f1c40f;
 }
 
 .home-info-blocks [class*="col-"]:nth-of-type(3) {

@@ -5,8 +5,8 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Global Female Condom Day | September 16, 2014</title>
-  <link href="/assets/css/fonts/ss-social.css" rel="stylesheet" media="all">
-  <link href="/assets/css/application.css" rel="stylesheet" media="all">
+  <link href="assets/css/fonts/ss-social.css" rel="stylesheet" media="all">
+  <link href="assets/css/application.css" rel="stylesheet" media="all">
   <!--[if lt IE 9]><script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
 </head>
 <body>
@@ -15,7 +15,7 @@
     <div class="wrapper">
     
       <div class="logo">
-        <a href="/" class="logo-mark"><img src="/assets/images/logo.svg" alt="GFCD"></a>
+        <a href="/" class="logo-mark"><img src="assets/images/logo.svg" alt="GFCD"></a>
         <div class="logo-text">
           <h1 class="title"><a href="/">Global Female Condom Day</a></h1>
           <p class="date">September 16, 2014</p>

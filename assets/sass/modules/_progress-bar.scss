@@ -1,0 +1,15 @@
+
+.progress {
+  overflow: hidden;
+  height: 16px;
+  background: $lt-grey;
+  border: 1px solid $grey;
+  border-radius: 10px;
+}
+
+.progress-bar {
+  float: left;
+  width: 60%;
+  height: 100%;
+  background: $green;
+}

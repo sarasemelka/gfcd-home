@@ -1,0 +1,35 @@
+
+/*
+.page {
+  @include cf;
+  max-width: 1420px;
+  margin: 0 auto;
+  border-left: 20px solid lighten($yellow, 48%);
+  border-right: 20px solid lighten($yellow, 48%);
+  border-left: 20px solid #fff;
+  border-right: 20px solid #fff;
+}
+*/
+
+.wrapper {
+  @include cf;
+  max-width: 1420px;
+  padding: 32px 2%;
+  margin: 0 auto;
+  
+  @include bp-min-width($small) {
+    padding: $base*2 2%;
+  }
+}
+
+.content {
+  @include bp-min-width($medium) {
+    float: left;
+  }
+}
+
+.left-sidebar {
+  @include bp-min-width($medium) {
+    float: left;
+  }
+}

@@ -1,0 +1,51 @@
+
+.hero {
+  position: relative;
+  padding: $base 0;
+  background: $navy;
+  background: $black $hero no-repeat center top;
+  background-size: cover;
+  border-top: 6px solid $lt-grey;
+  border-bottom: 6px solid $lt-grey;
+  text-align: center;
+  color: #fff;
+  
+  @include bp-min-width($medium) {
+    padding: $base*5 0 $base*7;
+  }
+  
+  .title {
+    margin-bottom: 12px;
+  }
+  
+  .date {
+    margin-bottom: 36px;
+    font-size: 48px;
+    line-height: 1;
+  }
+  
+  .intro {
+    max-width: 720px;
+    margin: 0 auto 36px;
+    font-size: 32px;
+    line-height: 1.25em;
+  }
+  
+  .btn:hover {
+    @include scale(1.05);
+    background: $orange;
+  }
+  
+  .icon-arrow-down {
+    position: absolute;
+    left: 50%;
+    bottom: 12px;
+    opacity: 0.5;
+    margin-left: -16px;
+    
+    &:hover {
+      opacity: 1;
+    }
+  }
+}
+

@@ -1,0 +1,51 @@
+
+.footer {
+  @include cf;
+
+  .wrapper {
+    padding: $base*1.5 40px;
+  }
+}
+
+.footer .follow-us {
+  margin-bottom: $base;
+  text-align: center;
+  
+  @include bp-min-width($medium) {
+    float: right;
+    margin-bottom: 0;
+  }
+  
+  .social-links {
+    font-size: 32px;
+  }
+  
+  li {
+    @include bp-min-width($medium) {
+      float: left;
+      margin-left: 16px;
+    }
+  }
+  
+  a {
+    color: $dk-grey;
+    
+    &:hover {
+      color: $blue;
+    }
+  }
+}
+
+.footer .copyright {
+  padding-top: $pad;
+
+  @include bp-min-width($medium) {
+    float: left;
+    padding: 0;
+  }
+  
+  p {
+    font-size: 15px;
+    text-align: center;
+  }
+}

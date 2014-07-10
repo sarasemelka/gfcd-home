@@ -18,19 +18,19 @@
         <div class="icon"></div>
         <h2 class="title-block">Sign Up for Dance4Demand</h2>
         <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate.</p>
-        <p><a href="" class="cta-link">Sign Up</a>
+        <p><a href="" class="cta-link">Sign Up <i class="icon-arrow-right"></i></a>
       </div>
       <div class="col-1-3">
         <div class="icon"></div>
         <h2 class="title-block">Submit Your Photos & Videos</h2>
         <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate.</p>
-        <p><a href="" class="cta-link">Sign Up</a>
+        <p><a href="" class="cta-link">Learn More <i class="icon-arrow-right"></i></a>
       </div>
       <div class="col-1-3">
         <div class="icon"></div>
         <h2 class="title-block">Learn About Female Condoms</h2>
         <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate.</p>
-        <p><a href="" class="cta-link">Sign Up</a>
+        <p><a href="" class="cta-link">Learn More <i class="icon-arrow-right"></i></a>
       </div>
   
     </div>

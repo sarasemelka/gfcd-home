@@ -29,6 +29,10 @@
     padding: 0 5%;
   }
   
+  .icon-arrow-right {
+    margin-left: 2px;
+    vertical-align: -5px;
+  }
 }
 
 .home-info-blocks [class*="col-"]:nth-of-type(2) {
@@ -145,6 +149,7 @@
     position: absolute;
     top: 0;
     right: 0;
+    width: 98px;
     height: 48px;
     border-top-left-radius: 0;
     border-bottom-left-radius: 0;

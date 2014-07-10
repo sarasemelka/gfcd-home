@@ -195,6 +195,12 @@ em {
   background: url('/assets/images/arrow-down.svg?1405004822') no-repeat 0 0;
 }
 
+.icon-arrow-right {
+  width: 23px;
+  height: 23px;
+  background: url('/assets/images/arrow-right.svg?1405011789') no-repeat 0 0;
+}
+
 /* 36px*/
 .grid {
   *zoom: 1;
@@ -738,6 +744,10 @@ button {
   margin-bottom: 24px;
   padding: 0 5%;
 }
+.home-info-blocks .icon-arrow-right {
+  margin-left: 2px;
+  vertical-align: -5px;
+}
 
 .home-info-blocks [class*="col-"]:nth-of-type(2) {
   border-color: #f39c12;
@@ -850,6 +860,7 @@ button {
   position: absolute;
   top: 0;
   right: 0;
+  width: 98px;
   height: 48px;
   border-top-left-radius: 0;
   border-bottom-left-radius: 0;

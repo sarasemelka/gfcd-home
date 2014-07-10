@@ -176,6 +176,18 @@ em {
   /*   background: $sprite no-repeat 0 0; */
 }
 
+.icon-arrow-down {
+  width: 33px;
+  height: 19px;
+  background: url('/assets/images/arrow-down.svg?1405004822') no-repeat 0 0;
+}
+
+.icon-arrow-right {
+  width: 23px;
+  height: 23px;
+  background: url('/assets/images/arrow-right.svg?1405011789') no-repeat 0 0;
+}
+
 /*
 .icon-twitter {
   width: 26px;
@@ -189,18 +201,6 @@ em {
   background-position: 0 -374px;
 }
 */
-.icon-arrow-down {
-  width: 33px;
-  height: 19px;
-  background: url('/assets/images/arrow-down.svg?1405004822') no-repeat 0 0;
-}
-
-.icon-arrow-right {
-  width: 23px;
-  height: 23px;
-  background: url('/assets/images/arrow-right.svg?1405011789') no-repeat 0 0;
-}
-
 /* 36px*/
 .grid {
   *zoom: 1;

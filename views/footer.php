@@ -19,7 +19,7 @@
       </div>
             
       <div class="copyright">
-        <p>&copy; <?php echo date('Y'); ?> Global Female Condom Day</p>
+        <p>&copy; <?php echo date('Y'); ?> Global Female Condom Day. Web Design: Eleven Eleven Creative</p>
       </div>
     
     </div>

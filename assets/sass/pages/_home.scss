@@ -10,6 +10,7 @@
   }
   
   .icon {
+    @include scale(0);
     width: 132px;
     height: 132px;
     background: $red;
@@ -35,6 +36,27 @@
   }
 }
 
+@include keyframes(zoomIn) {
+  0% {
+    @include scale(0);
+    opacity: 0;
+  }
+
+  50% {
+    opacity: 1;
+  }
+  
+  100% {
+    @include scale(1);
+  }
+}
+
+.animate .icon {
+ @include animation(zoomIn 1s 0.5s both);
+}
+
+/*
+
 .home-info-blocks [class*="col-"]:nth-of-type(2) {
   border-color: $orange;
   
@@ -51,6 +73,7 @@
     background: $purple;
   }
 }
+*/
 
 
 .bottom {

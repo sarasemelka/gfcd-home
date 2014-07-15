@@ -53,7 +53,13 @@ a {
       background: darken($orange, 5%);
     }
   }
-  
+
+  &.dk-orange {
+    background: $dk-orange;
+    &:hover {
+      background: darken($dk-orange, 5%);
+    }
+  }  
   &.white {
     background: #fff;
     color: $navy;

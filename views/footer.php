@@ -2,7 +2,7 @@
   
   <section class="section-movement">
     
-    <p>Dance with us on September 16 to demand access to female condoms. <a href="" class="btn dk-green">Let's Dance!</a></p>
+    <p>Dance with us on September 16 to demand access to female condoms. <a href="" class="btn dk-orange">Let's Dance!</a></p>
   
   </section>
   

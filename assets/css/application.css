@@ -356,6 +356,12 @@ a:hover {
 .btn.orange:hover {
   background: #e08e0b;
 }
+.btn.dk-orange {
+  background: #d35400;
+}
+.btn.dk-orange:hover {
+  background: #b94a00;
+}
 .btn.white {
   background: #fff;
   color: #2c3e50;
@@ -978,7 +984,7 @@ button {
 .section-movement {
   padding: 24px 0;
   background: #f6b856;
-  background: #2ecc71;
+  background: #f39c12;
   color: #fff;
   text-align: center;
 }

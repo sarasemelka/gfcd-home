@@ -1,9 +1,18 @@
 
 .footer {
   @include cf;
+  color: $dk-grey;
 
   .wrapper {
     padding: $base*1.5 40px;
+  }
+  
+  a {
+    color: $dk-grey;
+
+    &:hover {
+      color: $blue;
+    }
   }
 }
 
@@ -24,14 +33,6 @@
     @include bp-min-width($medium) {
       float: left;
       margin-left: 16px;
-    }
-  }
-  
-  a {
-    color: $dk-grey;
-    
-    &:hover {
-      color: $blue;
     }
   }
 }

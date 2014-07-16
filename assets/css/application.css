@@ -1315,6 +1315,7 @@ button {
 
 .footer {
   *zoom: 1;
+  color: #95a5a6;
 }
 .footer:before, .footer:after {
   content: " ";
@@ -1325,6 +1326,12 @@ button {
 }
 .footer .wrapper {
   padding: 36px 40px;
+}
+.footer a {
+  color: #95a5a6;
+}
+.footer a:hover {
+  color: #3498db;
 }
 
 .footer .follow-us {
@@ -1345,12 +1352,6 @@ button {
     float: left;
     margin-left: 16px;
   }
-}
-.footer .follow-us a {
-  color: #95a5a6;
-}
-.footer .follow-us a:hover {
-  color: #3498db;
 }
 
 .footer .copyright {

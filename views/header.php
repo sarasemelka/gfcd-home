@@ -19,6 +19,7 @@
         <div class="logo-text">
           <h1 class="title"><a href="/">Global Female Condom Day</a></h1>
           <p class="date">September 16, 2014</p>
+          <h1 class="mobile-title">GFCD</h1>
         </div>
       </div>
       

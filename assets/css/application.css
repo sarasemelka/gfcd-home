@@ -588,7 +588,7 @@ button {
 /* Modules */
 .hero {
   position: relative;
-  padding: 24px 5% 72px;
+  padding: 48px 5% 72px;
   background: #2c3e50;
   background: #212121 url('/assets/images/hero.jpg?1404856093') no-repeat center top;
   background-size: cover;
@@ -981,7 +981,7 @@ button {
 }
 @media (min-width: 740px) {
   .header .wrapper {
-    padding: 12px 40px;
+    padding: 12px 32px;
     max-width: none;
   }
 }
@@ -996,17 +996,21 @@ button {
   color: #f39c12;
 }
 
+.logo-mark {
+  display: block;
+  float: left;
+  width: 60px;
+  margin-right: 20px;
+}
 @media (min-width: 740px) {
   .logo-mark {
-    display: block;
-    float: left;
     width: 72px;
-    margin-right: 20px;
   }
 }
 
 .logo-text {
   float: left;
+  padding-top: 17px;
 }
 @media (min-width: 740px) {
   .logo-text {
@@ -1015,12 +1019,12 @@ button {
 }
 .logo-text .title {
   font-size: 24px;
-  line-height: 1.5em;
+  line-height: 1;
   font-weight: 700;
 }
-@media (min-width: 740px) {
+@media (max-width: 740px) {
   .logo-text .title {
-    line-height: 1;
+    display: none;
   }
 }
 .logo-text .date {
@@ -1029,14 +1033,29 @@ button {
   color: #2c3e50;
   font-size: 19px;
 }
+@media (max-width: 740px) {
+  .logo-text .date {
+    display: none;
+  }
+}
+.logo-text .mobile-title {
+  font-size: 24px;
+  line-height: 1;
+  font-weight: 700;
+}
+@media (min-width: 740px) {
+  .logo-text .mobile-title {
+    display: none;
+  }
+}
 
 .main-nav {
   position: relative;
 }
-@media (min-width: 740px) {
+@media (min-width: 1000px) {
   .main-nav {
     float: right;
-    padding-top: 1.75em;
+    padding-top: 24px;
   }
 }
 
@@ -1044,14 +1063,12 @@ button {
   display: none;
   clear: both;
   width: 100%;
-  background: #3498db;
-  border-top-left-radius: 5px;
-  border-bottom-left-radius: 5px;
-  border-bottom-right-radius: 5px;
+  padding-top: 12px;
 }
-@media (min-width: 740px) {
+@media (min-width: 1000px) {
   .main-nav ul {
     display: block;
+    padding-top: 0;
     background: no-repeat;
   }
 }
@@ -1063,25 +1080,34 @@ button {
   float: none;
   margin: 0;
 }
-@media (min-width: 740px) {
+@media (min-width: 1000px) {
   .main-nav li {
     position: relative;
     float: left;
-    margin-left: 36px;
+    margin-left: 42px;
   }
+}
+.main-nav li:first-child {
+  margin-left: 0;
 }
 
 .main-nav li a {
   display: block;
   padding: 0.5em 1em;
-  color: #ecf0f1;
   font-weight: 600;
 }
 .main-nav li a:hover, .main-nav li a.active {
   color: #fff;
-  background: #2980b9;
+  background: #c0392b;
 }
-@media (min-width: 740px) {
+@media (max-width: 1000px) {
+  .main-nav li a {
+    background: #e74c3c;
+    color: #ecf0f1;
+    font-size: 18px;
+  }
+}
+@media (min-width: 1000px) {
   .main-nav li a {
     display: block;
     padding: 0;
@@ -1118,16 +1144,24 @@ button {
   float: right;
   display: inline-block;
   position: relative;
+  margin-top: 14px;
   padding: 0.5em 0.5em 0.5em 2.5em;
+  background: #e74c3c;
   text-transform: uppercase;
+}
+.mobile-menu-btn:hover {
+  background: #c0392b;
 }
 .mobile-menu-btn.active {
   display: inline-block;
   color: #fff;
-  border-bottom-left-radius: 0;
-  border-bottom-right-radius: 0;
 }
-@media (min-width: 740px) {
+@media (min-width: 1000px) {
+  .mobile-menu-btn {
+    margin-top: 20px;
+  }
+}
+@media (min-width: 1000px) {
   .mobile-menu-btn {
     display: none;
   }

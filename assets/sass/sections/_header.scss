@@ -6,7 +6,7 @@
     padding: 12px 5%;
 
     @include bp-min-width($medium) {
-      padding: 12px 40px;
+      padding: 12px 32px;
       max-width: none;
     }    
   }
@@ -25,16 +25,19 @@
 }
 
 .logo-mark {
+  display: block;
+  float: left;
+  width: 60px;
+  margin-right: 20px;
+
   @include bp-min-width($medium) {
-    display: block;
-    float: left;
     width: 72px;
-    margin-right: 20px;
   }
 }
 
 .logo-text {
   float: left;
+  padding-top: 17px;
 
   @include bp-min-width($medium) {
     padding-top: 12px;
@@ -42,11 +45,11 @@
   
   .title {
     font-size: 24px;
-    line-height: 1.5em;
+    line-height: 1;
     font-weight: $bold;
-    
-    @include bp-min-width($medium) {
-      line-height: 1;
+
+    @include bp-max-width($medium) {
+      display: none;
     }
   }
   
@@ -55,6 +58,20 @@
     clear: left;
     color: $navy;
     font-size: 19px;
+
+    @include bp-max-width($medium) {
+      display: none;
+    }
+  }
+
+  .mobile-title {
+    font-size: 24px;
+    line-height: 1;
+    font-weight: $bold;
+
+    @include bp-min-width($medium) {
+      display: none;
+    }
   }
 
 }

@@ -2,7 +2,7 @@
   
   <section class="section-movement">
     
-    <p>Dance with us on September 16 to demand access to female condoms. <a href="" class="btn dk-orange">Let's Dance!</a></p>
+    <p>Dance with us on September 16 to demand access to female condoms. <a href="http://wfc2.wiredforchange.com/o/8810/p/dia/action3/common/public/?action_KEY=9664" class="btn dk-orange">Let's Dance!</a></p>
   
   </section>
   
@@ -11,15 +11,14 @@
     
       <div class="follow-us">
         <ul class="social-links">
-          <li><a href="" class="ss-icon ss-social-circle">twitter</a></li>
-          <li><a href="" class="ss-icon ss-social-circle">facebook</a></li>
-          <li><a href="" class="ss-icon ss-social-circle">googleplus</a></li>
-          <li><a href="" class="ss-icon ss-social-circle">youtube</a></li>
+          <li><a href="https://twitter.com/natlfccoalition" class="ss-icon ss-social-circle">twitter</a></li>
+          <li><a href="https://www.facebook.com/NationalFCCoalition" class="ss-icon ss-social-circle">facebook</a></li>
+          <li><a href="https://www.youtube.com/user/globalhealthcatalyst/" class="ss-icon ss-social-circle">youtube</a></li>
         </ul>
       </div>
             
       <div class="copyright">
-        <p>&copy; <?php echo date('Y'); ?> Global Female Condom Day. Web Design: Eleven Eleven Creative</p>
+        <p>&copy; <?php echo date('Y'); ?> Global Female Condom Day. <a href="http://elevenelevencreative.com/" target="">Web Design</a>: Eleven Eleven Creative</p>
       </div>
     
     </div>

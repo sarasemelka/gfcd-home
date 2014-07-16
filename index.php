@@ -5,46 +5,20 @@
     <h1 class="title">Global Female Condom Day</h1>
     <p class="date">September 16, 2014</p>
     <p class="intro">Global Female Condom Day is an annual a day of education and advocacy to increase awareness, access, and use of female condoms.</p>
-    <p><a href="" class="btn large orange">Join Our Movement</a></p>
+    <p><a href="http://wfc2.wiredforchange.com/o/8810/p/dia/action3/common/public/?action_KEY=9664" class="btn large orange">Join Our Movement</a></p>
     
-    <a href="#main" class="icon-arrow-down"></a>
+    <a href="#bottom" class="icon-arrow-down"></a>
   
   </section>
   
-  <section id="main" class="main home-info-blocks">
-    <div class="wrapper">
-  
-      <div class="col-1-3">
-        <div class="icon"></div>
-        <h2 class="title-block">Sign Up for Dance4Demand</h2>
-        <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate.</p>
-        <p><a href="" class="cta-link">Sign Up <i class="icon-arrow-right"></i></a>
-      </div>
-      <div class="col-1-3">
-        <div class="icon"></div>
-        <h2 class="title-block">Submit Your Photos & Videos</h2>
-        <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate.</p>
-        <p><a href="" class="cta-link">Learn More <i class="icon-arrow-right"></i></a>
-      </div>
-      <div class="col-1-3">
-        <div class="icon"></div>
-        <h2 class="title-block">Learn About Female Condoms</h2>
-        <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate.</p>
-        <p><a href="" class="cta-link">Learn More <i class="icon-arrow-right"></i></a>
-      </div>
-  
-    </div>
-  </section>
-  
-  <section class="bottom">
+  <section id="bottom" class="bottom">
       
       <div class="col-1-2 block-get-involved">
         <h3 class="title-block">Get Involved</h3>
         <ul class="social-links">
-          <li><a href="" class="ss-icon ss-social-circle">twitter</a></li>
-          <li><a href="" class="ss-icon ss-social-circle">facebook</a></li>
-          <li><a href="" class="ss-icon ss-social-circle">googleplus</a></li>
-          <li><a href="" class="ss-icon ss-social-circle">youtube</a></li>
+          <li><a href="https://twitter.com/natlfccoalition" class="ss-icon ss-social-circle">twitter</a></li>
+          <li><a href="https://www.facebook.com/NationalFCCoalition" class="ss-icon ss-social-circle">facebook</a></li>
+          <li><a href="https://www.youtube.com/user/globalhealthcatalyst/" class="ss-icon ss-social-circle">youtube</a></li>
         </ul>
         <ul class="hashtags">
           <li>#Dance4Demand</li>

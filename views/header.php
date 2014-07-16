@@ -25,16 +25,9 @@
       <nav class="main-nav">
         <a href="" class="btn mobile-menu-btn">Menu <span class="icon-menu"><span class="bar"></span><span class="bar"></span><span class="bar"></span></span></a>
         <ul>
-<!--
-          <li><a href="">Join Our Movement</a></li>
-          <li><a href="">Contact Us</a></li>
--->
-          <li><a href="">About</a></li>
-          <li><a href="">Dance4Demand</a></li>
-          <li><a href="">Tips & Tools</a></li>
-          <li><a href="">Photos & Videos</a></li>
-          <li><a href="">Why Female Condoms?</a></li>
-          <li><a href="">Contact Us</a></li>
+          <li><a href="">Organize Your Dance</a></li>
+          <li><a href="">Discussing Female Condoms</a></li>
+          <li><a href="http://wfc2.wiredforchange.com/o/8810/p/dia/action3/common/public/?action_KEY=9664">Join Our Movement</a></li>
         </ul>
       </nav>
     

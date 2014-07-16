@@ -42,36 +42,10 @@ $(function(){
     });
 
   }
-  
-  iconZoomIn = function() {
-    
-    $(window).scroll(function(event){
-      var windowPos = $(window).scrollTop();
-      var windowHeight = $(window).height();
-      var homeInfoBlocks = $('.home-info-blocks');
-      var homeMainPos = $(homeInfoBlocks).offset().top;
-      var homeBottomPos = $('.bottom').offset().top;
-      
-      if(windowPos = homeMainPos) {
-        event.preventDefault();
-        $(homeInfoBlocks).addClass('animate');
-        console.log(homeInfoBlocks);
-      }
-      
-/*
-      console.log(windowPos);
-      console.log(homeMainPos);
-*/
-    
-    });
-
-    
-  }
 
 
   labelFade();
   scrollTo();
   menuToggle();
-  iconZoomIn();
   
 });

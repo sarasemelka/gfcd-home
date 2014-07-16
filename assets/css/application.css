@@ -87,8 +87,13 @@ h1, h2, h3, h4, h5 {
 }
 
 h1 {
-  font-size: 72px;
+  font-size: 42px;
   font-weight: 900;
+}
+@media (min-width: 740px) {
+  h1 {
+    font-size: 72px;
+  }
 }
 
 h2 {
@@ -583,7 +588,7 @@ button {
 /* Modules */
 .hero {
   position: relative;
-  padding: 24px 5%;
+  padding: 24px 5% 72px;
   background: #2c3e50;
   background: #212121 url('/assets/images/hero.jpg?1404856093') no-repeat center top;
   background-size: cover;
@@ -601,23 +606,38 @@ button {
   margin-bottom: 12px;
 }
 .hero .date {
-  margin-bottom: 36px;
-  font-size: 48px;
-  line-height: 1;
+  margin-bottom: 24px;
+  font-size: 32px;
+}
+@media (min-width: 740px) {
+  .hero .date {
+    margin-bottom: 36px;
+    font-size: 48px;
+    line-height: 1;
+  }
 }
 .hero .intro {
   max-width: 720px;
   margin: 0 auto 36px;
-  font-size: 32px;
+  font-size: 24px;
   line-height: 1.25em;
 }
-.hero .btn:hover {
-  -webkit-transform: scale(1.05, 1.05);
-  -moz-transform: scale(1.05, 1.05);
-  -ms-transform: scale(1.05, 1.05);
-  -o-transform: scale(1.05, 1.05);
-  transform: scale(1.05, 1.05);
-  background: #f39c12;
+@media (min-width: 740px) {
+  .hero .intro {
+    margin-bottom: 36px;
+    font-size: 32px;
+    line-height: 1.25em;
+  }
+}
+@media (min-width: 740px) {
+  .hero .btn:hover {
+    -webkit-transform: scale(1.05, 1.05);
+    -moz-transform: scale(1.05, 1.05);
+    -ms-transform: scale(1.05, 1.05);
+    -o-transform: scale(1.05, 1.05);
+    transform: scale(1.05, 1.05);
+    background: #f39c12;
+  }
 }
 .hero .icon-arrow-down {
   position: absolute;
@@ -720,9 +740,14 @@ button {
   clear: both;
 }
 .bottom [class*="block-"] {
-  padding: 72px 3%;
+  padding: 48px 5%;
   text-align: center;
   border-top: 1px solid #ecf0f1;
+}
+@media (min-width: 1000px) {
+  .bottom [class*="block-"] {
+    padding: 72px 2%;
+  }
 }
 .bottom [class*="block-"]:first-of-type {
   border-right: 1px solid #ecf0f1;

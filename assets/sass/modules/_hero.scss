@@ -1,7 +1,7 @@
 
 .hero {
   position: relative;
-  padding: $base 5%;
+  padding: $base 5% $base*3;
   background: $navy;
   background: $black $hero no-repeat center top;
   background-size: cover;
@@ -19,21 +19,34 @@
   }
   
   .date {
-    margin-bottom: 36px;
-    font-size: 48px;
-    line-height: 1;
+    margin-bottom: $base;
+    font-size: 32px;
+
+    @include bp-min-width($medium) {
+      margin-bottom: 36px;
+      font-size: 48px;
+      line-height: 1;
+    }
   }
   
   .intro {
     max-width: 720px;
     margin: 0 auto 36px;
-    font-size: 32px;
+    font-size: 24px;
     line-height: 1.25em;
+
+    @include bp-min-width($medium) {
+      margin-bottom: 36px;
+      font-size: 32px;
+      line-height: 1.25em;
+    }
   }
   
   .btn:hover {
-    @include scale(1.05);
-    background: $orange;
+    @include bp-min-width($medium) {
+      @include scale(1.05);
+      background: $orange;
+    }
   }
   
   .icon-arrow-down {

@@ -4,10 +4,14 @@
   background: lighten($yellow, 48%);
 
   [class*="block-"] {
-    padding: $base*3 3%;
+    padding: $base*2 5%;
     text-align: center;
     border-top: 1px solid $lt-grey;
     
+    @include bp-min-width($large) {
+      padding: $base*3 2%;
+    }
+
     &:first-of-type {
       border-right: 1px solid $lt-grey;
     }

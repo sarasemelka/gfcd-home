@@ -32,8 +32,12 @@
   .intro {
     max-width: 720px;
     margin: 0 auto 36px;
-    font-size: 24px;
+    font-size: 20px;
     line-height: 1.25em;
+
+    @include bp-min-width($medium) {
+      font-size: 24px;
+    }
 
     @include bp-min-width($medium) {
       margin-bottom: 36px;

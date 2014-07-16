@@ -619,8 +619,13 @@ button {
 .hero .intro {
   max-width: 720px;
   margin: 0 auto 36px;
-  font-size: 24px;
+  font-size: 20px;
   line-height: 1.25em;
+}
+@media (min-width: 740px) {
+  .hero .intro {
+    font-size: 24px;
+  }
 }
 @media (min-width: 740px) {
   .hero .intro {

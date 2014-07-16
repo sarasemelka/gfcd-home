@@ -1,9 +1,12 @@
   </div>
   
-  <section class="section-movement">
-    
-    <p>Dance with us on September 16 to demand access to female condoms. <a href="http://wfc2.wiredforchange.com/o/8810/p/dia/action3/common/public/?action_KEY=9664" class="btn dk-orange">Let's Dance!</a></p>
-  
+  <section class="lets-dance">
+    <div class="wrapper">
+      
+      <p class="message">Dance with us on September 16 to demand access to female condoms.</p>
+      <p><a href="http://wfc2.wiredforchange.com/o/8810/p/dia/action3/common/public/?action_KEY=9664" class="btn dk-orange">Let's Dance!</a></p>
+      
+    </div>
   </section>
   
   <footer class="footer">

@@ -1,81 +1,4 @@
 
-
-.home-info-blocks {
-  @include cf;
-  background: lighten($yellow, 48%);
-  text-align: center;
-
-  [class*="col-"] {
-    padding: $base 3%;
-  }
-  
-  .icon {
-    @include scale(0);
-    width: 132px;
-    height: 132px;
-    background: $red;
-    border-radius: 50%;
-    margin: 0 auto $base;
-    
-  }
-  
-  .title-block {
-    max-width: 280px;
-    margin: 0 auto 12px;
-    font-weight: $bold;
-  }
-  
-  p {
-    margin-bottom: $base;
-    padding: 0 5%;
-  }
-  
-  .icon-arrow-right {
-    margin-left: 2px;
-    vertical-align: -5px;
-  }
-}
-
-@include keyframes(zoomIn) {
-  0% {
-    @include scale(0);
-    opacity: 0;
-  }
-
-  50% {
-    opacity: 1;
-  }
-  
-  100% {
-    @include scale(1);
-  }
-}
-
-.animate .icon {
- @include animation(zoomIn 1s 0.5s both);
-}
-
-/*
-
-.home-info-blocks [class*="col-"]:nth-of-type(2) {
-  border-color: $orange;
-  
-  .icon {
-    background: $yellow;
-  }
-}
-
-
-.home-info-blocks [class*="col-"]:nth-of-type(3) {
-  border-color: $purple;
-  
-  .icon {
-    background: $purple;
-  }
-}
-*/
-
-
 .bottom {
   @include cf;
   background: lighten($yellow, 48%);
@@ -180,18 +103,40 @@
 }
 
 
-.section-movement {
-  padding: $base 0;
-  background: lighten($orange, 14%);
+.lets-dance {
   background: $orange;
   color: #fff;
   text-align: center;
   
+  @include bp-min-width($large) {
+  }
+
+  .wrapper {
+    padding: $base 5%;
+
+    @include bp-min-width($medium) {
+      padding: $base 2%;
+    }
+  }
+
   p {
     font-size: 24px;
+    line-height: 28px;
+
+    @include bp-min-width($large) {
+      display: inline;
+    }
+  }
+  
+  .message {
+    @include bp-max-width($large) {
+      margin-bottom: 12px;
+    }
   }
   
   .btn {
-    margin-left: 32px;
+    @include bp-min-width($medium) {
+      margin-left: 32px;
+    }
   }
 }

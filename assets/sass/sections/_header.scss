@@ -3,9 +3,10 @@
   border-top: 6px solid $lt-grey;
   
   .wrapper {
-    padding: 12px 40px;
+    padding: 12px 5%;
 
     @include bp-min-width($medium) {
+      padding: 12px 40px;
       max-width: none;
     }    
   }

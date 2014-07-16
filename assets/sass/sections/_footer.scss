@@ -17,7 +17,7 @@
 }
 
 .footer .follow-us {
-  margin-bottom: $base;
+  margin-bottom: 12px;
   text-align: center;
   
   @include bp-min-width($medium) {
@@ -30,6 +30,11 @@
   }
   
   li {
+    @include bp-max-width($medium) {
+      display: inline-block;
+      margin: 0 10px;
+    }
+
     @include bp-min-width($medium) {
       float: left;
       margin-left: 16px;
@@ -38,11 +43,9 @@
 }
 
 .footer .copyright {
-  padding-top: $pad;
 
   @include bp-min-width($medium) {
     float: left;
-    padding: 0;
   }
   
   p {

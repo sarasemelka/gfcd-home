@@ -6,9 +6,13 @@
     padding: 12px 5%;
 
     @include bp-min-width($medium) {
-      padding: 12px 32px;
+      padding: 12px 24px;
       max-width: none;
     }    
+
+    @include bp-min-width($xlarge) {
+      padding: 12px 32px;
+    }
   }
 }
 

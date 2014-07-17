@@ -27,19 +27,6 @@
         </ul>
       </div>
 
-<!--
-      <div class="col-1-2 block-newsletter">
-        <h3 class="title-block">Newsletter Sign Up</h3>
-        <p>Ut enim ad minim veniam, quis nostrud exercitation aliquip consequat. Duis aute irure dolor in reprehenderit in voluptate.</p>
-        <form class="form-newsletter">
-          <div class="form-item">
-            <label for="email">Email</label>
-            <input type="text" name="email">
-          </div>
-          <button class="btn grey">Sign Up</button>
-        </form>
-      </div>
--->
       <div class="col-1-2 block-newsletter">
         <h3 class="title-block">Newsletter Sign Up</h3>
         <p>Ut enim ad minim veniam, quis nostrud exercitation aliquip consequat. Duis aute irure dolor in reprehenderit in voluptate.</p>
@@ -54,8 +41,7 @@
           <input type="hidden" name="link" value="groups"/>
           <input type="hidden" name="linkKey" value="8995"/>
           <input type="hidden" name="tag" value="newsletter"/>
-<!--           <input type="hidden" name="tag" value="189229"/> -->
-          <input type="hidden" name="redirect" value="/thank-you.php">
+          <input type="hidden" name="redirect" value="http://gfcd.elevenelevencreative.com/thank-you.php">
           <button type="Submit" value="Sign up" class="btn grey">Sign Up</button>
         </form>
       </div>

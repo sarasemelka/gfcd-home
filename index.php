@@ -41,7 +41,7 @@
           <input type="hidden" name="link" value="groups"/>
           <input type="hidden" name="linkKey" value="8995"/>
           <input type="hidden" name="tag" value="newsletter"/>
-          <input type="hidden" name="redirect" value="http://gfcd.elevenelevencreative.com/thank-you.php">
+          <input type="hidden" name="redirect" value="http://www.femalecondomday.org/thank-you.php">
           <button type="Submit" value="Sign up" class="btn grey">Sign Up</button>
         </form>
       </div>

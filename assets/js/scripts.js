@@ -2,7 +2,7 @@ $(function(){
 
   labelFade = function() {
   
-    var emailField = $('.form-newsletter input[type="text"]');
+    var emailField = $('.form-newsletter #email');
     var emailLabel = $('.form-newsletter label');
   
     $(emailField).bind('focus', function(){
@@ -43,9 +43,32 @@ $(function(){
 
   }
 
+	newsletterValidation = function() {
+	
+  	$('form').submit(function(e) {
+  		var formEmail = $('#email');
+  		
+  		$(formEmail).each(function() {
+		    iValue = $(this).val();
+    		if(iValue == '') {
+          $(this).parent().addClass('error');
+      		e.preventDefault();
+    		}
+  		});
+  	});
+  	
+  	$('input[type="email"]').focus(function() {
+  	   if ($(this).hasClass('error')) {
+  	       $(this).keyup(function() {
+  	           $(this).removeClass('error');
+  	       });
+  	   }
+  	});
+  }
 
   labelFade();
   scrollTo();
   menuToggle();
+  newsletterValidation();
   
 });

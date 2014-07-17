@@ -27,7 +27,7 @@
         <a href="" class="btn mobile-menu-btn">Menu <span class="icon-menu"><span class="bar"></span><span class="bar"></span><span class="bar"></span></span></a>
         <ul>
           <li><a href="/assets/files/OrganizeYourDance.pdf">Organize Your Dance</a></li>
-          <li><a href="">Discussing Female Condoms</a></li>
+<!--           <li><a href="">Discussing Female Condoms</a></li> -->
           <li><a href="http://wfc2.wiredforchange.com/o/8810/p/dia/action3/common/public/?action_KEY=9664">Join Our Movement</a></li>
         </ul>
       </nav>

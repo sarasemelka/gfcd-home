@@ -814,6 +814,9 @@ button {
   border-top-left-radius: 3px;
   border-bottom-left-radius: 3px;
 }
+.block-newsletter .form-item.error {
+  border-color: #e74c3c;
+}
 .block-newsletter label {
   color: #95a5a6;
   font-weight: 600;
@@ -874,107 +877,28 @@ button {
   }
 }
 
-.nav-anchor-section {
-  padding-top: 48px;
-}
-@media (min-width: 740px) {
-  .nav-anchor-section {
-    padding-top: 72px;
-  }
-}
-
-.style-guide .header {
-  position: fixed;
-  top: 0;
-  left: 0;
-  z-index: 10;
-  width: 100%;
-}
-.style-guide .header .wrapper {
-  max-width: none;
-}
-
-.item {
-  margin-bottom: 24px;
-}
-
-.block-component {
-  margin-bottom: 72px;
-}
-
-/** COLORS =========================================**/
-.list-colors {
-  margin-bottom: 0;
-}
-
-.list-colors [class*="col-"] {
-  max-width: 50%;
-  margin-bottom: 24px;
-  position: relative;
-  background: #fff;
-}
-.list-colors [class*="col-"]:before {
-  content: "";
-  position: absolute;
-  top: 0;
-  right: 6%;
-  bottom: 0;
-  left: 6%;
-  border: 1px solid #ecf0f1;
-}
-@media (min-width: 740px) {
-  .list-colors [class*="col-"]:before {
-    right: 18px;
-    left: 18px;
-  }
-}
-
-.color-swatch {
-  position: relative;
-}
-.color-swatch:after {
-  content: "";
-  display: block;
-  padding-bottom: 75%;
-}
-.color-swatch.red {
-  background: #e74c3c;
-}
-.color-swatch.blue {
-  background: #3498db;
-}
-.color-swatch.green {
-  background: #2ecc71;
-}
-.color-swatch.orange {
-  background: #f39c12;
-}
-
-.color-info {
-  padding: 0.5em 0;
+.thank-you {
+  padding: 48px 0;
+  border-top: 1px solid #ecf0f1;
   text-align: center;
 }
 @media (min-width: 740px) {
-  .color-info {
-    padding: 1em 0;
+  .thank-you {
+    min-height: 400px;
+    padding: 144px 0;
   }
 }
-.color-info .color-hex {
-  font-size: 14px;
+.thank-you h2 {
+  margin-bottom: 36px;
+  font-size: 50px;
+  line-height: 1.1;
+  font-style: italic;
 }
-
-/** BUTTONS =========================================**/
-.buttons .label {
-  margin-bottom: 4px;
+.thank-you p {
+  font-size: 24px;
 }
-
-.buttons .btn {
-  margin-bottom: 1em;
-}
-@media (min-width: 740px) {
-  .buttons .btn {
-    margin: 0 1em 0 0;
-  }
+.thank-you p .icon-arrow-right {
+  vertical-align: -5px;
 }
 
 /* Sections */

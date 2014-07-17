@@ -73,6 +73,10 @@
     border: 1px solid $dk-grey;
     border-top-left-radius: 3px;
     border-bottom-left-radius: 3px;
+    
+    &.error {
+      border-color: $red;
+    }
   }
   
   label {

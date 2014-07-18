@@ -29,7 +29,7 @@
 
       <div class="col-1-2 block-newsletter">
         <h3 class="title-block">Newsletter Sign Up</h3>
-        <p>Sign up for our newsletter to get the latest updates on Female Condom Day.</p>
+        <p>Sign up for our newsletter to get the latest updates on female condom advocacy.</p>
       
         <form action="https://hq-wfc2.wiredforchange.com/save" method="POST" class="form-newsletter">
           <input type="hidden" name="organization_KEY" value="8810"/>
